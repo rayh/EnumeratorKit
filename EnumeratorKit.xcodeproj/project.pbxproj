@@ -28,6 +28,8 @@
 		4A6A0A07185FA4A80053DAE2 /* NSObjectAsEKEnumeratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD3D59417534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m */; };
 		4A6A0A08185FA4A80053DAE2 /* NSArrayEKFlattenSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A505314179E746B0002630C /* NSArrayEKFlattenSpec.m */; };
 		4A6A0A09185FA4A80053DAE2 /* SortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB2E251755F42F009AC260 /* SortedList.m */; };
+		4A6A0A0D185FAA290053DAE2 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A0A0B185FAA180053DAE2 /* Config.m */; };
+		4A6A0A0E185FAA2A0053DAE2 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A0A0B185FAA180053DAE2 /* Config.m */; };
 		4AC073BB174AC561005FA8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6FA971740C5AE00DDBAD4 /* Foundation.framework */; };
 		4AC073C9174AC561005FA8E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6FAB31740C5AE00DDBAD4 /* SenTestingKit.framework */; };
 		4AC073CB174AC561005FA8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6FA971740C5AE00DDBAD4 /* Foundation.framework */; };
@@ -94,6 +96,7 @@
 		4A50613F177C453E0043C974 /* EKSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSemaphore.h; sourceTree = "<group>"; };
 		4A506140177C453E0043C974 /* EKSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSemaphore.m; sourceTree = "<group>"; };
 		4A531295177D70EF009F9180 /* EKSemaphoreSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKSemaphoreSpec.m; sourceTree = "<group>"; };
+		4A6A0A0B185FAA180053DAE2 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 		4AB6FA971740C5AE00DDBAD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4AB6FAB31740C5AE00DDBAD4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4AB6FACF1740D56E00DDBAD4 /* EKEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = EKEnumerator.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -166,6 +169,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A6A0A0A185FAA180053DAE2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4A6A0A0B185FAA180053DAE2 /* Config.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		4AB6FA891740C5AE00DDBAD4 = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +245,7 @@
 				4AD3D59417534E8A0050CE35 /* NSObjectAsEKEnumeratorSpec.m */,
 				4A505314179E746B0002630C /* NSArrayEKFlattenSpec.m */,
 				4ACB2E231755F403009AC260 /* Shared */,
+				4A6A0A0A185FAA180053DAE2 /* Support */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -510,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AC073FA174AC90E005FA8E5 /* EKFiberSpec.m in Sources */,
+				4A6A0A0D185FAA290053DAE2 /* Config.m in Sources */,
 				4A37C9AB17507B0B004A052E /* NSObjectIncludeEKEnumerableSpec.m in Sources */,
 				4AD3D58E1751AD7A0050CE35 /* EKEnumerableSpec.m in Sources */,
 				4AD3D590175348CD0050CE35 /* EKEnumeratorSpec.m in Sources */,
@@ -529,6 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A6A09FF185FA4A80053DAE2 /* EKEnumerableNSDictionarySpec.m in Sources */,
+				4A6A0A0E185FAA2A0053DAE2 /* Config.m in Sources */,
 				4A6A0A00185FA4A80053DAE2 /* EKEnumerableNSSetSpec.m in Sources */,
 				4A6A0A01185FA4A80053DAE2 /* EKEnumerableNSOrderedSetSpec.m in Sources */,
 				4A6A0A02185FA4A80053DAE2 /* EKEnumeratorSpec.m in Sources */,

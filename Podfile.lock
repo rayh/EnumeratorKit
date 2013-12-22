@@ -11,8 +11,13 @@ PODS:
     - Kiwi/NonARC
 
 DEPENDENCIES:
-  - Kiwi
-  - Kiwi/XCTest
+  - Kiwi (from `https://github.com/sharplet/Kiwi.git`, commit `c811d87b1e612aa1b911ac76da4005d647f981ac`)
+  - Kiwi/XCTest (from `https://github.com/sharplet/Kiwi.git`, commit `c811d87b1e612aa1b911ac76da4005d647f981ac`)
+
+EXTERNAL SOURCES:
+  Kiwi:
+    :commit: c811d87b1e612aa1b911ac76da4005d647f981ac
+    :git: https://github.com/sharplet/Kiwi.git
 
 SPEC CHECKSUMS:
   Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
